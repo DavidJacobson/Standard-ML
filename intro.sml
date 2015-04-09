@@ -69,8 +69,10 @@ fun fibonacci n =
   if n = 1 then 1 else
   fibonacci (n - 1) + fibonacci (n - 2)
 
-fun squared x =
+fun squared x = x * x
 
+
+fun pythag (a : int, b : int, c: int )  =
   if (squared a ) + (squared b) = (squared c)
     then
     true
